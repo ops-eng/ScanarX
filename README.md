@@ -1,3 +1,22 @@
+- Mr. Doe - The Manager: "I want all receipts sent to me as CSV, PDF or Text"
+- Mr. X - The Accountant: "I want all my receipts on my phone for privacy..."
+- Travis - the Taxi Driver: "I want to send all my receipts once a month at the garage"
+- Jim Cashie - Cashier: "I want to scan hundreds of receipts, day and night!"
+- The Archivist: "I want to auto categorize all my receipts"
+- John: "I want to occasionally scan gas station receipts"
+- Christie: "I want a simple easy to use interface..."
+
+Well, good news guys! All your demands and even more, are available in ScanarX Smart Receipt Scanner! The smart receipt scanner from space(X)!
+For less than half the price of a coffee, you'll scan your favourite receipts for life!
+
+---
+
+<p align="center">
+  <img src="images/iPhone_ScanarX_Scan.png" alt="ScanarX" width="40%" />
+</p>
+
+---
+
 ### ScanarX — Privacy‑first Receipt Scanner
 
 **ScanarX** is a lightweight, local‑first receipt scanner and analytics app for iPhone and iPad. Scan receipts with the device camera, run on‑device OCR and parsing, categorize expenses, and export CSV/PDF — all stored locally by default.
@@ -15,6 +34,12 @@
 - **Robust settings** — default currency, default category, export month selector, and full data clear option.
 - **Accessibility** — VoiceOver labels and dynamic type support.
 - **Simple monetization** — one‑time paid app (no subscriptions required).
+
+---
+
+<p align="center">
+  <img src="images/iPhone_ScanarX_Receipts.png" alt="ScanarX" width="40%" />
+</p>
 
 ---
 
@@ -69,6 +94,12 @@ ScanarX is translated into the following languages. Flags are shown as a quick v
 | 🇹🇷 | Turkish |
 | 🇺🇦 | Ukrainian |
 | 🇻🇳 | Vietnamese |
+
+---
+
+<p align="center">
+  <img src="images/iPhone_ScanarX_Stats.png" alt="ScanarX" width="40%" />
+</p>
 
 ---
 
