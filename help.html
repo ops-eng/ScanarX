@@ -1,1 +1,161 @@
-ScanarX Help
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ScanarX Help</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#111; background:#fff; line-height:1.5; padding:20px; max-width:900px; margin:auto; }
+    h1,h2,h3 { color:#111; margin-top:1.2rem; }
+    .section { border-radius:8px; padding:14px; background:#f7f7f8; margin-bottom:18px; border:1px solid #e6e6e7; }
+    .item { margin-bottom:12px; }
+    .item-title { font-weight:600; color:#0b3b5a; }
+    .muted { color:#6b6b6b; font-size:0.95rem; }
+    code { background:#eee; padding:2px 6px; border-radius:4px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; }
+    .small { font-size:0.95rem; color:#444; }
+  </style>
+</head>
+<body>
+  <h1>Help</h1>
+
+  <div class="section" id="scan">
+    <h2>Scan</h2>
+    <div class="item">
+      <div class="item-title">Scan Receipt</div>
+      <div class="muted">Opens the document camera, auto-crops the receipt, runs on-device OCR, parses receipt fields, stores the image and OCR text locally, then moves the receipt into the Receipts tab.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Latest Receipt</div>
+      <div class="muted">Shows the newest saved receipt as a quick card. Tap to open the receipt detail editor.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Summary tiles</div>
+      <div class="muted">Total Spend, This Month, Receipts, and Average show quick metrics for the selected period.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Privacy</div>
+      <div class="muted">Scanning, OCR, parsing, local storage, and export run on device. AI classification is on device when available and enabled.</div>
+    </div>
+  </div>
+
+  <div class="section" id="receipts">
+    <h2>Receipts</h2>
+    <div class="item">
+      <div class="item-title">Total pill</div>
+      <div class="muted">Shows the sum of currently stored receipts using the selected display currency preference.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Search</div>
+      <div class="muted">Filter receipts by merchant, category, payment method, currency, notes, and OCR text.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Category chips</div>
+      <div class="muted">Tap a category chip to filter the list to receipts saved with that category.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Receipt cards</div>
+      <div class="muted">Each card shows thumbnail, merchant, date, category, total, and opens the detail editor when tapped.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Receipt details</div>
+      <div class="muted">Edit parsed fields, add notes, view raw OCR text, export PDF, share image + OCR text, or delete the receipt.</div>
+    </div>
+  </div>
+
+  <div class="section" id="stats">
+    <h2>Stats</h2>
+    <div class="item">
+      <div class="item-title">Month and year pickers</div>
+      <div class="muted">Choose a month and year for analytics. Select All to aggregate the full year.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Donut chart</div>
+      <div class="muted">Shows category share for the selected period. Center shows total spend or selected category total after selecting a slice.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Category rows</div>
+      <div class="muted">Rows list category, total, receipt count, and percentage. Tap a row to highlight and open filtered receipts.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Exports</div>
+      <div class="muted">Use Export Period to create a CSV for the selected month or year. Use Export Category to create a CSV for the selected category.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Mixed currencies</div>
+      <div class="muted">If multiple currencies are present and no exchange-rate service is enabled, Stats shows local amounts and displays a warning.</div>
+    </div>
+  </div>
+
+  <div class="section" id="settings">
+    <h2>Settings</h2>
+    <div class="item">
+      <div class="item-title">Currency</div>
+      <div class="muted">Sets the default display and fallback currency. Selection is remembered on this device.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Default Category</div>
+      <div class="muted">Used when the parser and AI classifier cannot choose a category. You can edit each receipt later.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">AI</div>
+      <div class="muted">Enables on-device classification when the system model is available. Keyword parsing remains the fallback.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Export Selected Month</div>
+      <div class="muted">Creates a CSV for receipts dated inside the selected month. Path: Settings > Data > Export Selected Month.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Export All to CSV</div>
+      <div class="muted">Creates one CSV for every saved receipt. Path: Settings > Data > Export All to CSV.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Clear All Receipts</div>
+      <div class="muted">Deletes every stored receipt, image, OCR result, and saved field from this device after confirmation.</div>
+    </div>
+  </div>
+
+  <div class="section" id="ai-status">
+    <h2>AI Status</h2>
+    <div class="item">
+      <div class="item-title">On-device</div>
+      <div class="muted">The system model is ready. When AI is enabled, new scans use semantic on-device classification.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Enable in Settings</div>
+      <div class="muted">Apple Intelligence must be enabled in iOS Settings for on-device AI to run.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Model not ready</div>
+      <div class="muted">iOS downloads models automatically based on power, storage, network, and system conditions.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Device not eligible</div>
+      <div class="muted">Some devices do not support Apple Intelligence even on supported iOS versions.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Requires iOS 26</div>
+      <div class="muted">FoundationModels is available only on iOS 26 and later.</div>
+    </div>
+  </div>
+
+  <div class="section" id="export-paths">
+    <h2>Export Paths</h2>
+    <div class="item">
+      <div class="item-title">Receipt PDF</div>
+      <div class="muted">Path: Receipts > tap a receipt > Export PDF. Creates a PDF with saved fields, image, and OCR text.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Share receipt image and text</div>
+      <div class="muted">Path: Receipts > tap a receipt > Share. Opens the share sheet with image and OCR text.</div>
+    </div>
+    <div class="item">
+      <div class="item-title">Analytics CSV</div>
+      <div class="muted">Path: Stats > toolbar > Export Period or Export Category.</div>
+    </div>
+    <div class="item small">
+      <strong>Tip</strong> Exported CSV files are saved to the share destination you choose. For large exports, allow time for the file to be generated.
+    </div>
+  </div>
+
+</body>
+</html>
