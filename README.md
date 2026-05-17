@@ -1,0 +1,1 @@
+ScanarX Smart Receipt Scanner
