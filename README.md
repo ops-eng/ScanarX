@@ -79,5 +79,5 @@ ScanarX is translated into the following languages. Flags are shown as a quick v
 - Camera permission: `Settings → Privacy → Camera`  
 - Photo library: `Settings → Privacy → Photos`  
 - Apple Intelligence features: require device support and iOS model downloads (iOS 26 for FoundationModels)
-- 
+
 ---
