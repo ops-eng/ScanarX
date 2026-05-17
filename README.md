@@ -20,10 +20,7 @@
 
 ### Download & Install
 **App Store**  
-ScanarX is distributed as a one‑time purchase on the App Store. Set your bundle ID and App Store metadata as usual:
-
-- **App Name:** `ScanarX Smart Receipt Scanner`  
-- **Pricing:** One‑time payment, Keep Forever
+ScanarX is distributed as a one‑time purchase on the App Store.
 
 ---
 
